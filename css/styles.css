@@ -1,0 +1,20 @@
+div#show-pet {
+	display: none;
+};
+
+#name-pet {
+	text-align: center;
+};
+
+#btn-new-pet {
+	margin-top: 80 px;
+}
+
+
+table {
+	width: 50px;
+};
+
+#mood {
+	text-align: center;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <title>Your little pet</title>
+
+</head>
+
+
+<body>
+<div class="container">
+
+<h2></h2>
+
+<form id="new-pet">
+      <div class="form-group">
+        <h3></h3>
+        <label for="newpet"><h4>Прыдумайце імя свайму гадаванцу</h4></label>
+        <input type="text" class="form-control" id="newpet">
+      </div> 
+      <button type="submit" class="btn btn-default btn-lg">Стварыць</button>
+</form>      
+
+
+<div id="show-pet"> 
+
+ <p><span id="name-pet"></span></p>
+   
+
+  <div class="row"> 
+    <div class="col-md-4">
+      <div id="status">
+          <h3>Сучасны стан</h3>
+          <table class="table table-striped"> 
+            <tr><td>Ежа</td><td><span id="food"></span></td></tr> 
+            <tr><td>Сон</td><td><span id="sleep"></span></td></tr>      
+       <tr><td>Гуляць</td><td><span id="play"></span></td></tr>         
+          </table>
+  </div>
+  </div>
+ <div class="col-md-4">
+   <h3>Агульны настрой:</h3>   
+   <h3 id="mood"></h3>
+ </div>
+
+  </div>
+ 
+  <button class="btn btn-large btn-success" type="button">Пакарміць</button>
+  <button class="btn btn-large btn-success" type="button">Пакласці спаць</button>
+  <button class="btn btn-large btn-success" type="button">Пагуляць</button>
+  <p></p>
+  <button class="btn btn-lg btn-block btn-default" type="button" 
+    id="btn-new-pet">Стварыць новага гадаванца</button> 
+  
+
+</div>
+  
+
+
+
+
+
+</div>  
+
+</body>
+</html>
